@@ -1,0 +1,76 @@
+<!-- @format -->
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cairo&family=Lato&family=Pattaya&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header>
+      <h1>Contact Us</h1>
+    </header>
+    <main>
+      <form action="/">
+        <section class="about-section">
+          <h2>How can we help you?</h2>
+          <label for="yourname" class="lab1 labs">Your Name</label>
+          <input type="name" id="yourname" class="pad" />
+          <label for="email" class="labs">Your E-Mail Adress</label>
+          <input type="email" id="email" class="pad" />
+          <label for="phone" class="labs">Your Phone Number</label>
+          <input type="tel" id="phone" class="pad" />
+          <label for="message" class="labs">Your Message</label>
+          <textarea
+            name="text"
+            id="message"
+            cols="30"
+            rows="6"
+            class="pad"
+          ></textarea>
+          <label for="finder" class="labs">How did you find us?</label>
+          <select name="" id="finder" class="pad">
+            <option value="1">Web Search</option>
+            <option value="2">By Agency</option>
+            <option value="3">Someone's Advice</option>
+          </select>
+        </section>
+        <section class="contact-section">
+          <h2>How should we reply</h2>
+          <ul>
+            <li>
+              <input type="radio" name="contact" id="call-me" />
+              <label for="call-me" class="labs">Call me</label>
+            </li>
+            <li>
+              <input type="radio" id="send-me-email" name="contact" />
+              <label for="send-me-email" class="labs">Send me email</label>
+            </li>
+            <li>
+              <input type="radio" id="not-reply" name="contact" />
+              <label for="not-reply" class="labs">Don't reply</label>
+            </li>
+          </ul>
+        </section>
+        <hr />
+        <section class="terms">
+          <input type="checkbox" id="accept" />
+          <label for="accept" class="labs lab2">Accept Terms</label>
+        </section>
+        <section class="button">
+          <button type="reset" class="but1">Clear</button>
+          <button type="submit" class="but2">Submit</button>
+        </section>
+      </form>
+    </main>
+  </body>
+</html>

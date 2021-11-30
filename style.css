@@ -1,0 +1,94 @@
+/** @format */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: rgb(229, 241, 241);
+}
+header {
+  text-align: center;
+  margin: 2rem 0;
+}
+main {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+form {
+  width: 750px;
+  height: auto;
+  background-color: rgb(246, 255, 255);
+  padding: 2rem 1.3rem;
+  border-radius: 0.5rem;
+  box-shadow: 1px 1px 5px rgba(25, 25, 25, 0.2);
+  margin-bottom: 4rem;
+}
+.about-section {
+  display: flex;
+  flex-direction: column;
+}
+.contact-section {
+  display: flex;
+  flex-direction: column;
+}
+ul {
+  list-style: none;
+}
+.pad {
+  padding: 0.5rem;
+  margin: 0.5rem 0;
+  border-radius: 0.2rem;
+  font-size: 1rem;
+  color: rgb(48, 46, 46);
+  font-weight: bolder;
+}
+.lab1 {
+  margin-top: 1.5rem;
+}
+.labs {
+  font-size: 1.2rem;
+  font-family: "Pattaya" sans-serif;
+  color: rgb(41, 40, 40);
+}
+.contact-section h2 {
+  margin: 1.5rem 0;
+}
+hr {
+  margin: 1rem 0;
+}
+.lab2 {
+  color: rgb(10, 10, 10);
+}
+textarea {
+  resize: none;
+}
+.button {
+  display: flex;
+  justify-content: flex-end;
+}
+button {
+  padding: 0.4rem 1.3rem;
+  font-size: 1.2rem;
+  margin: 0.5rem 0.2rem;
+  cursor: pointer;
+  border-radius: 0.3rem;
+}
+.but1 {
+  background-color: white;
+  color: rgb(5, 4, 10);
+}
+.but2 {
+  color: white;
+  background-color: rgb(5, 4, 10);
+  border: none;
+}
+.but2:hover {
+  background-color: rgb(41, 39, 49);
+}
+.but1:hover {
+  background-color: rgb(221, 221, 220);
+}
